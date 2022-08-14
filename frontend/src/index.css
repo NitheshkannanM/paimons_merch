@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%; /* 16px * 62.5 = 10px = 1rem */
+  font-size: 62.5%; 
   box-sizing: border-box;
 }
 body {
@@ -130,7 +130,7 @@ ul.review {
   font-size: 1.4rem;
 }
 a > .rating > span:last-child {
-  color: #0000ff;
+  color: #d4db1a;
 }
 
 
@@ -169,7 +169,7 @@ a > .rating > span:last-child {
   top: 1.5rem;
 }
 
-/* Product Details */
+
 .details {
   display: flex;
   justify-content: space-between;
@@ -223,7 +223,7 @@ a > .rating > span:last-child {
   border: 0.1rem #404040 solid;
 }
 .button.primary {
-  background-color: #f0c040;
+  background-color: #18e11f;
 }
 .button.secondary {
   background-color: #f0f0f0;
@@ -231,7 +231,6 @@ a > .rating > span:last-child {
 .text-center {
   text-align: center;
 }
-/* Cart */
 
 .cart {
   display: flex;
@@ -282,7 +281,7 @@ a > .rating > span:last-child {
   text-align: right;
 }
 
-/* forms */
+
 
 .form {
   display: flex;
@@ -311,7 +310,6 @@ input {
   border-radius: 0.5rem;
 }
 
-/* Products */
 
 .product-header {
   display: flex;
@@ -333,7 +331,7 @@ tbody > tr:nth-child(odd) {
   background-color: #f0f0f0;
 }
 
-/* Checkout Steps */
+
 
 .checkout-steps {
   display: flex;
@@ -348,11 +346,11 @@ tbody > tr:nth-child(odd) {
   padding-top: 1rem;
 }
 .checkout-steps > div.active {
-  border-top: 0.3rem #f08000 solid;
-  color: #f08000;
+  border-top: 0.3rem #4dce11 solid;
+  color: #40d70e;
 }
 
-/* Place Order */
+
 
 .placeorder {
   display: flex;
@@ -392,13 +390,12 @@ tbody > tr:nth-child(odd) {
 .placeorder-action > ul > li:last-child {
   font-size: 2rem;
   font-weight: bold;
-  color: #c04000;
+  color: #28d815;
 }
 .placeorder-actions-payment > div {
   width: 100%;
 }
 
-/* Profile */
 
 .profile {
   display: flex;
@@ -412,7 +409,7 @@ tbody > tr:nth-child(odd) {
   flex: 3 1 60rem;
 }
 
-/* admin */
+
 .dropdown {
   display: inline-block;
   position: relative;
@@ -424,7 +421,7 @@ tbody > tr:nth-child(odd) {
   padding: 1rem;
   list-style-type: none;
   z-index: 1;
-  background-color: #203040;
+  background-color: #2389ef;
   margin: 0;
   margin-top: 0.4rem;
 }
@@ -432,7 +429,7 @@ tbody > tr:nth-child(odd) {
   display: block;
 }
 
-/* filter */
+
 
 .filter {
   display: flex;
